@@ -15,47 +15,25 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
-    better_errors (2.0.0)
-      coderay (>= 1.0.0)
-      erubis (>= 2.6.6)
-      rack (>= 0.9.0)
-    binding_of_caller (0.7.2)
-      debug_inspector (>= 0.0.1)
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
     celluloid (0.16.0)
       timers (~> 4.0.0)
-    coderay (1.1.0)
     columnize (0.9.0)
-    debug_inspector (0.0.2)
     dotenv (2.0.2)
-    erubis (2.7.0)
     ffi (1.9.8)
-    haml (4.0.5)
-      tilt
     hitimes (1.2.2)
     i18n (0.7.0)
     json (1.8.2)
     jwt (1.5.2)
-    kramdown (1.6.0)
     listen (2.10.0)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    method_source (0.8.2)
-    mini_magick (4.5.1)
     minitest (5.5.1)
     multi_json (1.11.2)
     pg (0.17.1)
-    proxies (0.2.1)
-    pry (0.10.1)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-    pry-byebug (3.2.0)
-      byebug (~> 5.0)
-      pry (~> 0.10)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -63,13 +41,8 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    rdoc (4.1.1)
-      json (~> 1.4)
     rerun (0.10.0)
       listen (~> 2.7, >= 2.7.3)
-    s3 (0.3.23)
-      proxies (~> 0.2.0)
-    sass (3.4.6)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -77,7 +50,6 @@ GEM
     sinatra-activerecord (2.0.6)
       activerecord (>= 3.2)
       sinatra (~> 1.0)
-    slop (3.6.0)
     thread_safe (0.3.5)
     tilt (1.4.1)
     timers (4.0.1)
@@ -94,23 +66,17 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
-  better_errors
-  binding_of_caller
+  byebug
   dotenv
-  haml
-  kramdown
-  mini_magick
   pg
-  pry
-  pry-byebug
   rake
-  rdoc
   rerun
-  s3
-  sass
   sinatra
   sinatra-activerecord
   twilio-ruby
 
+RUBY VERSION
+   ruby 2.3.1p112
+
 BUNDLED WITH
-   1.10.6
+   1.13.2
