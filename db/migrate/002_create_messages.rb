@@ -1,7 +1,6 @@
-class CreateUsers < ActiveRecord::Migration
+class CreateMessages < ActiveRecord::Migration
 	def change
-			create_table :users do |table|
-
+		create_table :messages do |table|
 			table.string :identifier
 			table.string :type
 			table.string :to_number
