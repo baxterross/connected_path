@@ -1,0 +1,5 @@
+*.sh
+.env
+.DS_Store
+.ruby-version
+config/database.yml

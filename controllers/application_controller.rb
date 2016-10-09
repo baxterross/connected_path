@@ -1,0 +1,3 @@
+get '/sms' do
+
+end
